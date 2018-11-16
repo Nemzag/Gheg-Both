@@ -1,0 +1,141 @@
+# Copyright 2018, 20?? Arifi Gazmen
+#
+# E-Mail: ???@hotmail.com
+#
+# Version 0.1 (2018.11.12) 
+#
+# This file is distributed under GPL license
+#
+# This file is part of the Albanian dictionary.
+#
+# The Albanian Gheg dictionary is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as published
+# by the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# The Albanian dictionary is distributed in the hope that it will be
+# useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+# GPL license can be found here:
+# http://www.fsf.org/licenses/licenses.html
+
+SET UTF-8 #SET ISO8859-1
+
+TRY aâäãbcçddeëêẽfghiĩjklmnoôöõpqrstuũvwxyỹzAÂÄÃBCÇDDEËÊẼFGHIĨJKLMNOÔÖÕPQRSTUŨVWXYỸZ
+
+###########
+# TESTING #
+###########
+
+SFX Geg Y 9                         #LET = LETTER'S.
+SFX Geg      0    a            .    #SUFFIX : edit of 2018-11-13 by Gazmen Arifi.
+SFX Geg      0    ë            .    #SUFFIX : edit of 2018-11-13 by Gazmen Arifi.
+SFX Geg      0    e            .    #SUFFIX : edit of 2018-11-13 by Gazmen Arifi {e : epsilon n°5 I.P.A. [e]).
+SFX Geg      0    ê            .    #SUFFIX : edit of 2018-11-13 by Gazmen Arifi {ê : êta n°8 I.P.A. [?]).
+SFX Geg      0    i            .    #SUFFIX : edit of 2018-11-13 by Gazmen Arifi {i : iôta n°10 I.P.A. [i]).
+SFX Geg      0    o            .    #SUFFIX : edit of 2018-11-13 by Gazmen Arifi {o : iôta n°10 I.P.A. [o]).
+SFX Geg      0    u            .    #SUFFIX : edit of 2018-11-13 by Gazmen Arifi {u : upsilon n°10 I.P.A. [u]).
+SFX Geg      0    y            .    #SUFFIX : edit of 2018-11-13 by Gazmen Arifi {y : ypsilon n°10 I.P.A. [y]).
+SFX Geg      0    ô            .    #SUFFIX : edit of 2018-11-13 by Gazmen Arifi {ô : ômega n°1000 I.P.A. [?]).
+
+SFX Um Y 2
+SFX Um       0    um           . #SUFFIX : edit of 2018-11-13 by Gazmen Arifi.
+SFX Um       0    uam          . #SUFFIX : edit of 2018-11-13 by Gazmen Arifi.
+
+SFX Us Y 2
+SFX Us       0    us           . #SUFFIX : edit of 2018-11-15 by Gazmen Arifi.
+SFX Us       0    ues          . #SUFFIX : edit of 2018-11-15 by Gazmen Arifi.
+
+SFX Verbone Y 2
+SFX Verbone 0   oj          .   #SUFFIX : edit of 2018-11-15 by Gazmen Arifi.
+SFX Verbone 0   ojna        .   #SUFFIX : edit of 2018-11-15 by Gazmen Arifi.
+
+PFX Prefix Y 14
+PFX Prefix   0    ad‑          . {#PREFIX : edit of 2018-11-15 by Gazmen Arifi. Action, before any term's.#}
+PFX Prefix   0    ç'           . {#PREFIX : edit of 2018-11-13 by Gazmen Arifi. Action, before any term's.#}
+PFX Prefix   0    de‑          . #PREFIX : edit of 2018-11-13 by Gazmen Arifi. Action, before any term's.
+PFX Prefix   0    dis‑         . #PREFIX : edit of 2018-11-15 by Gazmen Arifi. Action, before any term's.
+PFX Prefix   0    kol‑         . #PREFIX : edit of 2018-11-13 by Gazmen Arifi. Before a "L".
+PFX Prefix   0    kom‑         . #PREFIX : edit of 2018-11-13 by Gazmen Arifi. Before ""
+PFX Prefix   0    kon‑         . #PREFIX : edit of 2018-11-15 by Gazmen Arifi. Before ""
+PFX Prefix   0    pa‑          . #PREFIX : edit of 2018-11-13 by Gazmen Arifi. Privation, probably vrom Latin PASSUS.
+PFX Prefix   0    për‑         . #PREFIX : edit of 2018-11-13 by Gazmen Arifi.
+PFX Prefix   0    pre‑         . #PREFIX : edit of 2018-11-13 by Gazmen Arifi.
+PFX Prefix   0    pro‑         . #PREFIX : edit of 2018-11-15 by Gazmen Arifi.
+PFX Prefix   0    re‑          . #PREFIX : edit of 2018-11-13 by Gazmen Arifi.
+PFX Prefix   0    s'           . #PREXIF : edit of 2018-11-13 by Gazmen Arifi. Negation, vrom Latin SE-.
+PFX Prefix   0    sym‑         . #PREFIX : edit of 2018-11-13 by Gazmen Arifi.
+
+REP 58
+REP a ë
+REP ë a
+REP ë e
+REP e ë
+REP u y
+REP y u
+REP i y
+REP y i
+# REP u ua          #Replacement : edit of 2018-11-13 by Gazmen Arifi (remove Tosk wrong rule).
+# REP u ue          #Replacement : edit of 2018-11-13 by Gazmen Arifi (remove Tosk wrong rule).
+REP y ye
+REP c ç
+REP ç c
+REP ç q
+REP q ç
+REP i j
+REP j i
+REP i ij
+REP ij i
+REP d t
+REP t d
+REP g gj
+REP j nj
+REP gj xh
+REP xh gj
+REP s z
+REP z s
+REP sh ç
+REP ç sh
+REP z zh
+REP zh z
+REP ç sh
+REP sh ç
+#PREFIX
+REP ^kom-p komp             #Prefix 2018-11-13 Edit by Gazmen Arifi.
+REP ^komp kom-p             #Prefix 2018-11-13 Edit by Gazmen Arifi.
+REP ^kom- kom               #Prefix 2018-11-13 Edit by Gazmen Arifi.
+REP ^kom kom-               #Prefix 2018-11-13 Edit by Gazmen Arifi.
+REP ^pap pa‑p               #Prefix 2018-11-13 Edit by Gazmen Arifi.
+REP simp sym‑               #Prefix 2018-11-13 Edit by Gazmen Arifi.
+REP ^jn in                   #Prefix 2018-11-15 Edit by Gazmen Arifi.
+REP ^in jn                   #Prefix 2018-11-15 Edit by Gazmen Arifi.
+REP ç zh
+REP zh ç
+REP d dt
+REP l ll
+REP ll l
+REP r rr
+REP rr r
+REP eshte ãshthë
+REP është ãshthë
+REP kan kanë
+REP jan janë
+REP këtë kête
+REP këtë kêt
+REP kte këtë
+REP ktë këtë
+REP kt këtë
+REP keti këtij
+REP këtij kti
+REP këto kto
+
+BREAK 8
+BREAK ^-
+BREAK -$
+BREAK ‑
+BREAK ^‑
+BREAK ‑$
+BREAK ‑
+BREAK ^‑‑
+BREAK ‑‑$
