@@ -1,7 +1,7 @@
 #Critics of “sq_AL.dic” :
 About “sq_AL.dic” made by “Luan Kelmendi” between 2002 to 2008, I will say that it is a quite great oeuvre and thank him pro his job.
 
-But alas, this oeuvre miss lot of comment's and explanation's pro future user’s to better comprehend the system of declination, combination conjugation, grammation of our language & script,  
+But alas, this oeuvre miss lot of comment's and explanation's pro future user’s to better comprehend the system of declination, combination conjugation, grammation of our language & script,
 and pro the Gheg dialect, it is a real corruption.
 
 First you need to know that the Gheg (Geg Gegnish from Greek: antique, primitive, original…) is the true authentic language of real Shkypë‑tarë (ΩΚΥΠΤΗΡΟΜ) & Shqipë‑tarë (ACCIPITER).
@@ -55,7 +55,7 @@ Also, Gheg language have nasal’s, and his dictionary don’t use accent to sho
 * omicron & ômega,
 * Kappa [k] & Qoppa [q]
   {removed in modern‑Greek, in Cyrrilic Slavic language's and replaced by [tɕ] or [ɕ],
-   Q is still used in : 
+   Q is still used in :
    * Arabian « ق »,
    * Georgian « Ⴗ Ⴤ »,
    * Sanskrit « क़ »
@@ -71,7 +71,7 @@ Also, Gheg language have nasal’s, and his dictionary don’t use accent to sho
 
 ## The Gheg Albanian have many poly sound's & letters :
 
-Ling to my vorð‑premsh article, sorry it's in Albnaian.
+Ling to my vorð‑premsh article, sorry it's in Albanian.
 
 Also when I look is prefix section I will say that he don’t have any clue of semantic & etymology of Shkyp term’s of Latin, Greek, Semitic, Slavic origin, because if he had learned & ana‑lyzed them, like I did in the past at shcool, on courses and on internet, he will know that per‑, ob‑, dis‑, ad‑ and many other’s are prefix in Latin and should have been added to dictionary.
 
